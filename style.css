@@ -1,23 +1,73 @@
 .header {
     background-color: #1F2937;
+    flex: 0
 } 
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    padding: 18px; 
+    margin-right: 100px;
+    margin-bottom: -20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.welcome {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 100px;
+    margin-left: 80px 
+
+}
+
+.welcome-image {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 230px;
+}
+
+p, h1 {
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 350px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 350px
+}
 
 h1 {
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8;
-    font-family: Arial, Helvetica, sans-serif
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -12px;
 }
 
 p {
     font-size: 18px;
-    color: #E5E7EB;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    border-radius: 25px;
+    border: 2px solid #E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 0
+
 }
 
 .text {
