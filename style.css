@@ -1,0 +1,51 @@
+.header {
+    background-color: #1F2937;
+} 
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+.text {
+    display: flex;
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {text-decoration: none;}
+a{color: #F9FAF8; font-family: Arial, Helvetica, sans-serif;}
+a:visited {color: #F9FAF8}
+a:hover {color: #E5E7EB}
