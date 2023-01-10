@@ -20,6 +20,7 @@
     font-size: 18px;
     color: #E5E7EB;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%
 }
 
 .left-nav {
@@ -40,18 +41,25 @@
     box-sizing: border-box;
     display: flex;
     width: 100%;
-    align-items: flex-start;
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 75px;
+    align-items: center;
     justify-content: flex-start;
-    padding: 100px;
     border-color: #1F2937;
 
 }
 
+.welcome-text {
+    margin-right: 270px 
+}
+
 .welcome-image {
     display: flex;
+    flex-shrink: 1; 
     height: 350px;
-    width: 350px;
-    margin-left: 80px 
+    width: 350px 
 }
 
 p, h1 {
@@ -61,7 +69,6 @@ p, h1 {
     color: #E5E7EB;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 350px;
-    margin-left: 90px
 }
 
 h1 {
@@ -95,7 +102,27 @@ button {
 
 .text {
     display: flex;
+    font-size: 18px;
     
+}
+
+.photography {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px; 
+    gap: 30px 
+}
+
+.mountains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics {
+    width: 370px;
+    height: 270px; 
 }
 
 .quote {
@@ -104,11 +131,13 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 
 }
 
 .sign-up {
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
+
 }
 
 .footer {
@@ -118,6 +147,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+    padding: 20px 
 }
 
 a:link {text-decoration: none;}
