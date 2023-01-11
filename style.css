@@ -4,13 +4,6 @@
     padding: 0
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    
-}
-
 .header {
     background-color: #2b394c;
     flex: 0
@@ -46,8 +39,6 @@ body {
 .welcome {
     box-sizing: border-box;
     display: flex;
-    flex: 1; 
-    min-width: 100vh; 
     padding-left: 100px; 
     padding-right: 100px;
     padding-bottom: 100px;
@@ -63,7 +54,6 @@ body {
 }
 
 .welcome-image {
-    display: flex; 
     max-width: 100%;
     height: auto
 }
