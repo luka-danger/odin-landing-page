@@ -1,12 +1,12 @@
 
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
+   
 }
 
 .header {
     background-color: #2b394c;
-    flex: 0
 } 
 
 .nav {
@@ -25,15 +25,17 @@
 
 .left-nav {
     display: flex;
-    flex: 0 0 auto;
     height: auto;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .right-nav {
     display: flex;
     gap: 22px; 
+    max-width: 100%;
+    height: auto 
 }
 
 .welcome {
@@ -129,7 +131,8 @@ p {
     font-size: 36px;
     color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 100px 
+    padding: 100px;
+    min-width: auto
 }
 
 .sign-up {
@@ -141,6 +144,7 @@ p {
     border: 100px solid white; 
     flex-wrap: nowrap;
     flex: 1 1 auto;
+    min-width: 500px
 }
 
 .container {
